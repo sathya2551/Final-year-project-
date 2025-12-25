@@ -1,0 +1,8 @@
+body { font-family: Arial, Helvetica, sans-serif; background:#f3f3f3; display:flex; height:100vh; align-items:center; justify-content:center; margin:0; }
+#chat{ width:400px; background:#fff; box-shadow:0 4px 12px rgba(0,0,0,0.1); border-radius:8px; padding:12px; display:flex; flex-direction:column; }
+#messages{ flex:1; overflow:auto; padding:8px; margin-bottom:8px; max-height:400px; }
+.message{ padding:8px 10px; margin:6px 0; border-radius:6px; max-width:80%; }
+.user{ background:#d1e7ff; align-self:flex-end; }
+.bot{ background:#f1f1f1; align-self:flex-start; }
+input#msg{ padding:8px; width:calc(100% - 80px); border:1px solid #ddd; border-radius:4px; margin-right:8px; }
+button#send{ padding:8px 12px; }

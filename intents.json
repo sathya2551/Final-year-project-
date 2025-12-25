@@ -1,0 +1,119 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good evening", "hello there", "hi there", "hey"],
+      "responses": ["Hello! Welcome to Sri Krishna College of Arts and Science, Coimbatore.", "Hi — how can I help you about the college today?"]
+    },
+    {
+      "tag": "about_college",
+      "patterns": ["Tell me about the college", "about sri krishna college", "college overview", "college information", "what is sri krishna college"],
+      "responses": ["Sri Krishna College of Arts and Science, Coimbatore offers undergraduate and postgraduate programs across Arts, Science and Commerce. Ask about courses, admissions, fees, placements or contact details for more information."]
+    },
+    {
+      "tag": "courses",
+      "patterns": ["what courses do you offer", "list of courses", "courses", "programs offered", "available programs"],
+      "responses": ["We offer UG and PG programs including B.Sc, B.Com, BBA, BCA, BA, M.Sc and M.Com. Tell me which stream you are interested in (Science / Commerce / Arts)."]
+    },
+    {
+      "tag": "ug_courses",
+      "patterns": ["undergraduate courses", "bsc courses", "bcom courses", "bca courses", "bba courses", "ug programs"],
+      "responses": ["Undergraduate programs include B.Sc. (Computer Science, Mathematics, Physics, Chemistry), B.Com., BBA, BCA, BA (English, Economics). See the department pages for specialization details."]
+    },
+    {
+      "tag": "pg_courses",
+      "patterns": ["postgraduate courses", "msc courses", "mcom courses", "pg programs", "master programs"],
+      "responses": ["Postgraduate programs include M.Sc., M.Com. and discipline-specific PG courses. Check the Admissions or Departments page for up-to-date PG offerings."]
+    },
+    {
+      "tag": "admissions",
+      "patterns": ["how to apply", "admission process", "admissions", "application process", "how to join"],
+      "responses": ["Admissions are processed via the college application form. Visit the Admissions page on the website, complete the form and submit required documents. Contact admissions office for assistance."]
+    },
+    {
+      "tag": "eligibility",
+      "patterns": ["eligibility", "eligibility criteria", "who can apply", "minimum requirements"],
+      "responses": ["Eligibility depends on the program. Generally UG applicants should have passed 10+2 in a relevant stream. PG applicants need a relevant UG degree. Refer to the specific course page for exact criteria."]
+    },
+    {
+      "tag": "fees",
+      "patterns": ["fees", "fee structure", "tuition fees", "course fees", "how much is the fee"],
+      "responses": ["Fee structure varies by program and year. Please check the Fees page on the college website for exact figures. You can also tell me the program and I'll provide approximate guidance."]
+    },
+    {
+      "tag": "scholarships",
+      "patterns": ["scholarship", "scholarships", "financial aid", "fee waiver"],
+      "responses": ["The college provides scholarships and concessions based on merit and need. Scholarship details and application procedures are available on the Scholarships page."]
+    },
+    {
+      "tag": "placements",
+      "patterns": ["placements", "placement cell", "placements statistics", "companies visiting"],
+      "responses": ["Our placement cell facilitates campus recruitment and training. Companies from IT, Finance and other sectors visit campus. For placement statistics and top recruiters see the Placements page."]
+    },
+    {
+      "tag": "departments",
+      "patterns": ["departments", "which departments", "science department", "arts department", "commerce department"],
+      "responses": ["The college has departments including Computer Science, Physics, Chemistry, Mathematics, Commerce and English. Ask about a specific department for more details."]
+    },
+    {
+      "tag": "faculty",
+      "patterns": ["faculty", "teachers", "professors", "who are the faculty"],
+      "responses": ["Our faculty includes experienced professors and lecturers across departments. For faculty lists and profiles see the Faculty or Department pages on the website."]
+    },
+    {
+      "tag": "hostel",
+      "patterns": ["hostel", "accommodation", "hostel facilities", "is there a hostel"],
+      "responses": ["Hostel facilities are available subject to availability. Facilities include mess, rooms and security. Contact the Student Affairs or Hostel office for application and fee details."]
+    },
+    {
+      "tag": "library",
+      "patterns": ["library", "library timings", "books", "library facilities"],
+      "responses": ["The college library holds books, journals and e-resources. Timings and membership information are on the Library page of the website."]
+    },
+    {
+      "tag": "events",
+      "patterns": ["events", "upcoming events", "college fest", "seminar", "workshop"],
+      "responses": ["The college hosts seminars, workshops and cultural events throughout the year. See the Events or News section on the website for schedules and registration details."]
+    },
+    {
+      "tag": "transport",
+      "patterns": ["transport", "bus facility", "college buses", "transportation"],
+      "responses": ["College transport services operate on specified routes. Check the Transport section or contact the office for routes, timings and fees."]
+    },
+    {
+      "tag": "academic_calendar",
+      "patterns": ["academic calendar", "semester dates", "exam schedule", "holidays", "timetable"],
+      "responses": ["Academic calendar, semester dates, exam schedules and holidays are published on the Academic Calendar page. Check the website for the current year's schedule."]
+    },
+    {
+      "tag": "syllabus",
+      "patterns": ["syllabus", "curriculum", "course syllabus", "what is the syllabus"],
+      "responses": ["Syllabus and curriculum highlights for each program are available on the relevant department or course pages. Tell me the course you want the syllabus for."]
+    },
+    {
+      "tag": "achievements",
+      "patterns": ["achievements", "rankings", "awards", "accreditation"],
+      "responses": ["The college has achievements in academics, research and extracurriculars. Accreditation and ranking information is on the About/Accreditations page."]
+    },
+    {
+      "tag": "contact",
+      "patterns": ["contact", "phone number", "email", "contact details", "how to contact college"],
+      "responses": ["Admissions Office: +91-XXXXXXXXXX. Email: admissions@example.edu (replace with real contact). For exact phone numbers and emails, check the Contact page on the college website."]
+    },
+    {
+      "tag": "address",
+      "patterns": ["address", "where are you located", "location", "college address", "how to reach"],
+      "responses": ["Sri Krishna College of Arts and Science is located in Coimbatore. See the Contact/Location page for the full postal address and map directions."]
+    },
+    {
+      "tag": "technical_support",
+      "patterns": ["faq", "downloads", "application form", "brochure", "notices", "important announcements"],
+      "responses": ["You can download application forms, brochures and timetables from the Downloads/Notices section on the website. Ask me for the specific document name if you need help locating it."]
+    },
+    {
+      "tag": "default_fallback",
+      "patterns": ["*"],
+      "responses": ["I didn't understand that. Please rephrase or ask about admissions, courses, fees, placements or contact details. I can provide the website link if you want."]
+    }
+  ]
+}
